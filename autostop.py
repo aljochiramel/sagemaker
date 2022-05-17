@@ -1,4 +1,5 @@
 import boto3 
+import json
 
 def get_notebook_name():
     log_path = '/opt/ml/metadata/resource-metadata.json'
